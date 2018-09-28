@@ -10,7 +10,10 @@ namespace LabPractical1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hello World!");
+            int myNumber = 0;
+            Console.WriteLine($"Please enter an integer number");
+            myNumber = Convert.ToInt32 ( Console.ReadLine());
+            Console.WriteLine($"The number entered was {myNumber} ");
             Console.ReadKey();
         }
     }
